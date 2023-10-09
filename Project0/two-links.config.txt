@@ -1,0 +1,8 @@
+node 0 1 cnss.lib.EndSystemControl SenderNode 4
+node 1 1 cnss.lib.EndSystemControl ReceiverNode
+node 2 2 cnss.lib.FloodingSwitch cnss.lib.EmptyApp 
+
+link 0.0 2.0 1000000 250 0 0
+link 2.1 1.0 1000000 500 0 0
+
+parameter stop 20000

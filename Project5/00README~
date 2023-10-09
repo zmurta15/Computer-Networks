@@ -1,0 +1,51 @@
+This Package Organization
+=========================
+The organization of this file follows the recommenations in the
+Annex of the Work Assignment 5:
+Annex - Suggestions to set-up your work environment.
+
+It is ready to start the developments on different stages and
+for testing the different network configurations and
+expected resulsts
+
+Stage 1: Baseline distance-vector protocol
+         ---------------------------------
+         Configurations     Resulsts
+	 ---------------------------------
+         config5.1.txt      result5.1.txt
+         config5.2.txt      result5.2.txt
+	 ---------------------------------
+
+Stage 2: Add triggered updates
+         ---------------------------------
+         Configurations     Resulsts
+	 ---------------------------------
+         config5.3.txt      result5.3.txt
+         config5.4.txt      result5.4.txt
+	 ---------------------------------
+
+Stage 3: Add split horizon with poison-reverse
+         ---------------------------------
+         Configurations     Resulsts
+	 ---------------------------------
+         config5.5.txt      result5.5.txt
+         config5.6.txt      result5.6.txt
+	 ---------------------------------
+	 
+Stage 4: Add expiration of stale table entries
+         ---------------------------------
+         Configurations     Resulsts
+	 ---------------------------------
+         config5.7.txt      result5.7.txt
+         config5.8.txt      result5.8.txt
+	 ---------------------------------
+
+File Assignment-5.pdf:
+=======================
+
+You can find in the Assignment-5.pdf a PDF version of
+the README-md file, as presented in:
+
+https://github.com/jlegatheaux/RC2020-assignments/tree/master/assignment-5
+
+/hj

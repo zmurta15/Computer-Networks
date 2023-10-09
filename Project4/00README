@@ -1,0 +1,78 @@
+// SRSC Work-Assignmet #4, P8/Lab
+// Presentation, Setup and Development Kickoff
+//
+// README (help) to compile and run simulations
+// with the given configurations (this is for shell-based environment)
+// and initial materials (RC2020-assignmemts/assignment4) on GitHub
+//
+// Simulator: CNSS
+// -----------------
+// In WA#4 you need (you will come back) to the CNSS Simulator
+// You will need the last version of CNSS available !
+// The package for the CNSS corresponding to the latest available version
+// is in the initial GIT repository: https://github.com/jlegatheaux/cnss
+// Remember you can use git to clone the contents of the repository to a
+// local directory, like so:
+//        - git clone https://github.com/jlegatheaux/cnss
+// This will create a directory cnss in the current directory with a
+// local repository corresponding to the latest version.
+// You can refresh and update the local repository, by executing the
+// following command in the repository folder:
+//        - git -C cnss pull
+// As you can see, this step was done and you have the CNSS (already)
+// in this distro ;-))
+
+// Specific materials for WA#4
+-------------------------------
+// WA#4 materials correspond to the available initial materials
+// (See Assigments, Assignment 4): Figures, configs and src.
+// These matreials were downloaded to be in this distro/packaging ;-))
+// 
+// Initial "src" content is in "src-assignment4"
+// Initial "configs" content is in "configs"
+// Initial "Figures" is in "configs"
+//
+// Plase be aware of possible updates (not expected) in the original
+// materials (follow discussions or indications in Piazza). If this
+// is the case, you must refresh this provided package with possible
+// updates ... (not expected but ...)
+//
+//
+// As you can see in the WA#4 Statement and Guidelines, the
+// materials correspond to initial source files (src-assignment4) 
+// for the behaviour of network nodes: 
+// Sender.java, Receiver.java, Floof.java or FloodForStudents.java
+// were initially placed in the simulator package (hierarchy), 
+// in the "examples" directory
+
+// I also assume we will compile to have all required classes in
+// cnss-classes (which must be created, previously to the compilation)
+//
+// Note) I have my compiled classes in cnss-classes but you can
+// choose to have yours in other directories: bin or whatever ... 
+// (In fact, the WA#4 statement considers a "bin" directory, as
+//  you can see)
+//
+// Note: I downloaded the config files (as explained in the
+// assignment 4) to a directory called "configs"
+
+// =============================================================
+// NOW ... Just compile and run ;-))
+// =============================================================
+
+// Following all above, compile with:
+javac -d cnss-classes cnss/src/*/*/*.java
+
+// To run the simulations for different configurations
+// like this:
+java -cp cnss-classes cnss.simulator.Simulator configs/config4.1
+java -cp cnss-classes cnss.simulator.Simulator configs/config4.2
+java -cp cnss-classes cnss.simulator.Simulator configs/config4.3
+java -cp cnss-classes cnss.simulator.Simulator configs/config4.4
+
+// And that's it ! You have everything to start your work ...
+// Follow the WA#4 Statement and remaining guidance for what 
+// you must observe and what you must do for your deliverables :-!
+
+
+
